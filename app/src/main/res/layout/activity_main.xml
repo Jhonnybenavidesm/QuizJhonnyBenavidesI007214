@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus_pc.quizjhonnybenavidesi007214.MainActivity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="150dp"
+          android:background="@drawable/backgroundindex"
+          >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="FINANCIAR"
+             android:textSize="15sp"
+             android:textStyle="bold"
+             android:textColor="@color/colorWhite"
+             android:layout_alignParentTop="true"
+             android:layout_centerInParent="true"/>
+
+         <TextView
+             android:id="@+id/num"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="$7.963.420"
+             android:textSize="30sp"
+             android:textStyle="bold"
+             android:textColor="@color/colorWhite"
+             android:layout_centerInParent="true"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Mar. 15-22, 2018"
+             android:textSize="10sp"
+             android:textStyle="bold"
+             android:textColor="@color/colorWhite"
+             android:layout_below="@+id/num"
+             android:layout_centerInParent="true"/>
+
+
+
+      </RelativeLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+         <RelativeLayout
+             android:layout_width="200dp"
+             android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:text="$1.173.000"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/ingre"/>
+
+            <TextView
+                android:id="@+id/ingre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:text="Ingresos"
+                android:layout_centerInParent="true"/>
+
+         </RelativeLayout>
+
+         <RelativeLayout
+               android:layout_width="200dp"
+               android:layout_height="100dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:text="$3.747.000"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/gasto"/>
+
+            <TextView
+                android:id="@+id/gasto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Gasto"
+                android:layout_centerInParent="true"/>
+
+         </RelativeLayout>
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="@color/colorGray"
+          android:padding="10dp">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Historial de Transacciones"
+             android:textColor="@color/colorGrayText"
+             android:layout_weight="1"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Mas"
+             android:textColor="@color/colorGrayText"/>
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/arrow"/>
+
+      </LinearLayout>
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="100dp">
+
+               <TextView
+                   android:id="@+id/mercado"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:text="Mercado Libre"
+                   android:layout_centerInParent="true"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="15-03-2018"
+                   android:layout_below="@+id/mercado"
+                   android:layout_centerInParent="true"/>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="100dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textStyle="bold"
+                   android:textColor="@color/colorAccent"
+                   android:textSize="20sp"
+                   android:text="-57.30"
+                   android:layout_centerInParent="true"/>
+
+
+            </RelativeLayout>
+
+
+         </LinearLayout>
+
+         
+
+
+      </ScrollView>
+
+   </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
